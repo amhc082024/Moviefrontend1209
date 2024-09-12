@@ -27,7 +27,7 @@ movieElement.className = "movie-card"
 // Hekte Elementet på nettsiden
 
 // Få tak i elementet vi ønsker å sette det inn under
-Const movieList = document.querySelector("#movie-list")
+const movieList = document.querySelector("#movie-list")
 
 movieList.append(movieElement)
 }
